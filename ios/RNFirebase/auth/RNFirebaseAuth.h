@@ -67,8 +67,7 @@ NSString * const AuthErrorCode_toJSErrorCode[] = {
   [FIRAuthErrorCodeWebInternalError] = @"auth/internal-error",
   [FIRAuthErrorCodeNullUser] = @"auth/null-user",
   [FIRAuthErrorCodeKeychainError] = @"auth/keychain-error",
-  [FIRAuthErrorCodeInternalError] = @"auth/internal-error",
-  [FIRAuthErrorCodeMalformedJWT] = @"auth/malformed-jwt"
+  [FIRAuthErrorCodeInternalError] = @"auth/internal-error"
 };
 #else
 @interface RNFirebaseAuth : NSObject
